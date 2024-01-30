@@ -10,6 +10,7 @@ header {
 	display: flex;
 	justify-content: end;
 	align-items: center;
+	padding: 20px 0;
 }
 
 .header_block {
@@ -21,4 +22,24 @@ header {
 
 #icon-container {
 	width: 30px;
+}
+
+#header_separator {
+	border-left: 2px solid #ededed;
+	height: 25px;
+	margin: 10px;
+}
+
+#login_button {
+	border: none;
+	background-color: white;
+	font-weight: bold;
+}
+
+#subscribe_button {
+	background-color: #ede619;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-weight: bold;
 }
