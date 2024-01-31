@@ -52,13 +52,14 @@ nav {
 
 ul {
 	display: flex;
+	justify-content: space-between;
 	list-style: none;
+	padding: 0;
 }
 
 li {
 	display: flex;
 	justify-content: center;
-	width: 11.1%;
 	padding: 10px;
 	font-size: 20px;
 	text-transform: uppercase;
