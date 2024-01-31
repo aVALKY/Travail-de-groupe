@@ -1,3 +1,4 @@
+
 #logo_container {
 	width: 150px;
 }
@@ -74,4 +75,30 @@ li {
 .navbar_icon_container {
 	height: 30px;
 	width: 30px;
+}
+
+main{
+	background-color: gray;
+}
+#div_container{
+	background-color: white;
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+.div_child{
+	width: 25%;
+	padding: 100px;
+	margin: 0px;
+}
+.logo_jaune{
+	width: 3%;
+}
+.toto{
+	width: 300px;
+	height: 300px;
 }
